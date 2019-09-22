@@ -132,7 +132,7 @@ example.com {
 Build from caddy repository and import  **caddy-supervisor** plugin on file https://github.com/caddyserver/caddy/blob/master/caddy/caddymain/run.go :
 ```
 import (
-  _ "github.com/lucaslorentz/caddy-supervisor/httpplugin"
-  _ "github.com/lucaslorentz/caddy-supervisor/servertype"
+  _ "github.com/FlorianPerrot/caddy-supervisor/httpplugin"
+  _ "github.com/FlorianPerrot/caddy-supervisor/servertype"
 )
 ```

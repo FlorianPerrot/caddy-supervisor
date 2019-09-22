@@ -1,4 +1,4 @@
-package: github.com/lucaslorentz/caddy-supervisor
+package: github.com/FlorianPerrot/caddy-supervisor
 import:
 - package: github.com/Masterminds/sprig
   version: master

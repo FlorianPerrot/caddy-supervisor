@@ -1,7 +1,7 @@
 package httpplugin
 
 import (
-	"github.com/lucaslorentz/caddy-supervisor/supervisor"
+	"github.com/FlorianPerrot/caddy-supervisor/supervisor"
 	"github.com/caddyserver/caddy"
 )
 
