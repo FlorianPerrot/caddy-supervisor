@@ -1,8 +1,8 @@
-package caddysupervisor
+package supervisor
 
 import (
-	"caddysupervisor/httpplugin"
-	"caddysupervisor/servertype"
+	"github.com/FlorianPerrot/caddy-supervisor/httpplugin"
+	"github.com/FlorianPerrot/caddy-supervisor/servertype"
 )
 
 func init() {

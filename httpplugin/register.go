@@ -3,7 +3,7 @@ package httpplugin
 import (
 	"sync"
 
-	"caddysupervisor/supervisor"
+	"github.com/FlorianPerrot/caddy-supervisor/supervisor"
 	"github.com/caddyserver/caddy"
 )
 

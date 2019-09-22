@@ -6,8 +6,7 @@ import (
 
 	// Plugins
 	_ "github.com/hacdias/caddy-service"
-	_ "github.com/FlorianPerrot/caddy-supervisor/httpplugin"
-	_ "github.com/FlorianPerrot/caddy-supervisor/servertype"
+	_ "github.com/FlorianPerrot/caddy-supervisor"
 )
 
 func main() {
