@@ -3,11 +3,11 @@ package httpplugin
 import (
 	"sync"
 
-	"github.com/FlorianPerrot/caddy-supervisor/supervisor"
+	"caddysupervisor/supervisor"
 	"github.com/caddyserver/caddy"
 )
 
-func init() {
+func Register() {
 	caddy.RegisterPlugin("supervisor", caddy.Plugin{
 		ServerType: "http",
 		Action:     setup,

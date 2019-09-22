@@ -1,4 +1,4 @@
-# caddy-supervisor [![Build Status](https://travis-ci.org/lucaslorentz/caddy-supervisor.svg?branch=master)](https://travis-ci.org/lucaslorentz/caddy-supervisor)
+# caddy-supervisor [![Build Status](https://travis-ci.org/FlorianPerrot/caddy-supervisor.svg?branch=master)](https://travis-ci.org/FlorianPerrot/caddy-supervisor)
 
 ## Introduction
 This plugin enables caddy to run and supervise background processes.
@@ -132,7 +132,6 @@ example.com {
 Build from caddy repository and import  **caddy-supervisor** plugin on file https://github.com/caddyserver/caddy/blob/master/caddy/caddymain/run.go :
 ```
 import (
-  _ "github.com/FlorianPerrot/caddy-supervisor/httpplugin"
-  _ "github.com/FlorianPerrot/caddy-supervisor/servertype"
+  _ "github.com/FlorianPerrot/caddy-supervisor"
 )
 ```

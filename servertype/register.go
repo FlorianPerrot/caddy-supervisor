@@ -4,12 +4,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/FlorianPerrot/caddy-supervisor/supervisor"
+	"caddysupervisor/supervisor"
 	"github.com/caddyserver/caddy"
 	"github.com/caddyserver/caddy/caddyfile"
 )
 
-func init() {
+func Register() {
 	var directives = []string{
 		"command",
 		"args",
