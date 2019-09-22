@@ -7,7 +7,7 @@ import (
 	"github.com/caddyserver/caddy"
 )
 
-func Register() {
+func init() {
 	caddy.RegisterPlugin("supervisor", caddy.Plugin{
 		ServerType: "http",
 		Action:     setup,

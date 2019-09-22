@@ -2,6 +2,8 @@
 
 set -e
 
+go get
+
 go test -race
 
 CGO_ENABLED=0 go build -o caddy examples/main.go

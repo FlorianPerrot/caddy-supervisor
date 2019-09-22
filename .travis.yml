@@ -7,8 +7,5 @@ go:
 
 dist: trusty
 
-install:
-  - go get
-
 script:
   - ./examples/build.sh

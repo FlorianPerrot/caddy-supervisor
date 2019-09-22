@@ -9,7 +9,7 @@ import (
 	"github.com/caddyserver/caddy/caddyfile"
 )
 
-func Register() {
+func init() {
 	var directives = []string{
 		"command",
 		"args",
