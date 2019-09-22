@@ -11,4 +11,4 @@ install:
   - go get
 
 script:
-  - ./build.sh
+  - ./examples/build.sh

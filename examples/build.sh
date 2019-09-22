@@ -4,7 +4,7 @@ set -e
 
 go test -race
 
-CGO_ENABLED=0 go build -o caddy
+CGO_ENABLED=0 go build -o caddy examples/main.go
 
 echo ""
 echo ""
